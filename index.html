@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adam Keyes front-end developer portfolio">
+    <title>Adam Keyes | Front-end Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header shell" aria-label="Main header">
+      <a class="logo" href="#top" aria-label="Adam Keyes home">adamkeyes</a>
+      <nav class="socials" aria-label="Social links">
+        <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.87c-2.78.61-3.37-1.18-3.37-1.18-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.54 9.54 0 0 1 12 6.84a9.5 9.5 0 0 1 2.5.34c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+        </a>
+        <a href="https://www.frontendmentor.io/" target="_blank" rel="noreferrer" aria-label="Frontend Mentor">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.17 1.27a.73.73 0 0 0-.73.73v14.95a.73.73 0 1 0 1.46 0V2a.73.73 0 0 0-.73-.73ZM7.3 4.61a.73.73 0 0 0-1.03.06 11.25 11.25 0 0 0 2.06 17.12.73.73 0 1 0 .8-1.22A9.78 9.78 0 0 1 7.36 5.64a.73.73 0 0 0-.06-1.03Zm10.8 6.29a.73.73 0 0 0-.97.36 5.42 5.42 0 0 1-3.02 2.78.73.73 0 1 0 .51 1.37 6.89 6.89 0 0 0 3.84-3.54.73.73 0 0 0-.36-.97Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.86-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.33V8.98h3.42v1.56h.05c.47-.9 1.64-1.86 3.37-1.86 3.6 0 4.28 2.37 4.28 5.46v6.31ZM5.31 7.41a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13Zm1.78 13.04H3.53V8.98h3.56v11.47Z"/></svg>
+        </a>
+        <a href="https://x.com/" target="_blank" rel="noreferrer" aria-label="X">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.95 4.57a10.07 10.07 0 0 1-2.83.78 4.93 4.93 0 0 0 2.17-2.73 9.86 9.86 0 0 1-3.13 1.2A4.92 4.92 0 0 0 11.65 7.2a13.98 13.98 0 0 1-10.15-5.15 4.92 4.92 0 0 0 1.52 6.57A4.9 4.9 0 0 1 .8 8v.06a4.92 4.92 0 0 0 3.95 4.83 4.93 4.93 0 0 1-2.22.08 4.93 4.93 0 0 0 4.6 3.42A9.88 9.88 0 0 1 1 18.5a9.93 9.93 0 0 1-1.17-.07 13.94 13.94 0 0 0 7.55 2.21c9.05 0 14-7.5 14-14l-.02-.64a10 10 0 0 0 2.46-2.55Z"/></svg>
+        </a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-photo" aria-hidden="true">
+          <img src="assets/images/profile.png" alt="">
+        </div>
+        <img class="rings rings-hero" src="assets/icons/rings.svg" alt="" aria-hidden="true">
+        <div class="circle" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <h1 id="hero-title">Nice to meet you!<br>I’m <span>Adam Keyes</span>.</h1>
+          <p>Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
+          <a class="text-link" href="#contact">Contact me</a>
+        </div>
+      </section>
+
+      <section class="skills shell" aria-label="Skills and experience">
+        <article><h2>HTML</h2><p>4 Years Experience</p></article>
+        <article><h2>CSS</h2><p>4 Years Experience</p></article>
+        <article><h2>Javascript</h2><p>4 Years Experience</p></article>
+        <article><h2>Accessibility</h2><p>4 Years Experience</p></article>
+        <article><h2>React</h2><p>3 Years Experience</p></article>
+        <article><h2>Sass</h2><p>3 Years Experience</p></article>
+        <img class="rings rings-skills" src="assets/icons/rings.svg" alt="" aria-hidden="true">
+      </section>
+
+      <section class="projects shell" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <h2 id="projects-title">Projects</h2>
+          <a class="text-link" href="#contact">Contact me</a>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/design-portfolio.png" alt="Design portfolio website preview">
+              <div class="project-actions project-actions-overlay">
+                <a class="text-link" href="#" aria-label="View Design Portfolio project">View project</a>
+                <a class="text-link" href="#" aria-label="View Design Portfolio code">View code</a>
+              </div>
+            </div>
+            <h3>Design Portfolio</h3>
+            <p class="tags"><span>HTML</span><span>CSS</span></p>
+            <div class="project-actions project-actions-inline">
+              <a class="text-link" href="#">View project</a><a class="text-link" href="#">View code</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/elearning-page.png" alt="E-learning landing page preview">
+              <div class="project-actions project-actions-overlay">
+                <a class="text-link" href="#" aria-label="View E-learning Landing Page project">View project</a>
+                <a class="text-link" href="#" aria-label="View E-learning Landing Page code">View code</a>
+              </div>
+            </div>
+            <h3>E-learning Landing Page</h3>
+            <p class="tags"><span>HTML</span><span>CSS</span></p>
+            <div class="project-actions project-actions-inline">
+              <a class="text-link" href="#">View project</a><a class="text-link" href="#">View code</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/todo-app.png" alt="Todo web application preview">
+              <div class="project-actions project-actions-overlay">
+                <a class="text-link" href="#" aria-label="View Todo Web App project">View project</a>
+                <a class="text-link" href="#" aria-label="View Todo Web App code">View code</a>
+              </div>
+            </div>
+            <h3>Todo Web App</h3>
+            <p class="tags"><span>HTML</span><span>CSS</span><span>Javascript</span></p>
+            <div class="project-actions project-actions-inline">
+              <a class="text-link" href="#">View project</a><a class="text-link" href="#">View code</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/entertainment-app.png" alt="Entertainment web application preview">
+              <div class="project-actions project-actions-overlay">
+                <a class="text-link" href="#" aria-label="View Entertainment Web App project">View project</a>
+                <a class="text-link" href="#" aria-label="View Entertainment Web App code">View code</a>
+              </div>
+            </div>
+            <h3>Entertainment Web App</h3>
+            <p class="tags"><span>HTML</span><span>CSS</span><span>Javascript</span></p>
+            <div class="project-actions project-actions-inline">
+              <a class="text-link" href="#">View project</a><a class="text-link" href="#">View code</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/memory-game.png" alt="Memory game preview">
+              <div class="project-actions project-actions-overlay">
+                <a class="text-link" href="#" aria-label="View Memory Game project">View project</a>
+                <a class="text-link" href="#" aria-label="View Memory Game code">View code</a>
+              </div>
+            </div>
+            <h3>Memory Game</h3>
+            <p class="tags"><span>HTML</span><span>CSS</span><span>Javascript</span></p>
+            <div class="project-actions project-actions-inline">
+              <a class="text-link" href="#">View project</a><a class="text-link" href="#">View code</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/art-gallery.png" alt="Art gallery showcase preview">
+              <div class="project-actions project-actions-overlay">
+                <a class="text-link" href="#" aria-label="View Art Gallery Showcase project">View project</a>
+                <a class="text-link" href="#" aria-label="View Art Gallery Showcase code">View code</a>
+              </div>
+            </div>
+            <h3>Art Gallery Showcase</h3>
+            <p class="tags"><span>HTML</span><span>CSS</span><span>Javascript</span></p>
+            <div class="project-actions project-actions-inline">
+              <a class="text-link" href="#">View project</a><a class="text-link" href="#">View code</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner shell">
+          <div class="contact-copy">
+            <h2 id="contact-title">Contact</h2>
+            <p>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
+          </div>
+          <form class="contact-form" novalidate>
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+              <p class="error-message" aria-live="polite"></p>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <p class="error-message" aria-live="polite"></p>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="3" required></textarea>
+              <p class="error-message" aria-live="polite"></p>
+            </div>
+            <button class="text-link submit-button" type="submit">Send message</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+          <img class="rings rings-contact" src="assets/icons/rings.svg" alt="" aria-hidden="true">
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner shell">
+        <a class="logo" href="#top" aria-label="Back to the top">adamkeyes</a>
+        <nav class="socials" aria-label="Footer social links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.87c-2.78.61-3.37-1.18-3.37-1.18-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.54 9.54 0 0 1 12 6.84a9.5 9.5 0 0 1 2.5.34c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
+          <a href="https://www.frontendmentor.io/" target="_blank" rel="noreferrer" aria-label="Frontend Mentor"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.17 1.27a.73.73 0 0 0-.73.73v14.95a.73.73 0 1 0 1.46 0V2a.73.73 0 0 0-.73-.73ZM7.3 4.61a.73.73 0 0 0-1.03.06 11.25 11.25 0 0 0 2.06 17.12.73.73 0 1 0 .8-1.22A9.78 9.78 0 0 1 7.36 5.64a.73.73 0 0 0-.06-1.03Zm10.8 6.29a.73.73 0 0 0-.97.36 5.42 5.42 0 0 1-3.02 2.78.73.73 0 1 0 .51 1.37 6.89 6.89 0 0 0 3.84-3.54.73.73 0 0 0-.36-.97Z"/></svg></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.86-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.33V8.98h3.42v1.56h.05c.47-.9 1.64-1.86 3.37-1.86 3.6 0 4.28 2.37 4.28 5.46v6.31ZM5.31 7.41a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13Zm1.78 13.04H3.53V8.98h3.56v11.47Z"/></svg></a>
+          <a href="https://x.com/" target="_blank" rel="noreferrer" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.95 4.57a10.07 10.07 0 0 1-2.83.78 4.93 4.93 0 0 0 2.17-2.73 9.86 9.86 0 0 1-3.13 1.2A4.92 4.92 0 0 0 11.65 7.2a13.98 13.98 0 0 1-10.15-5.15 4.92 4.92 0 0 0 1.52 6.57A4.9 4.9 0 0 1 .8 8v.06a4.92 4.92 0 0 0 3.95 4.83 4.93 4.93 0 0 1-2.22.08 4.93 4.93 0 0 0 4.6 3.42A9.88 9.88 0 0 1 1 18.5a9.93 9.93 0 0 1-1.17-.07 13.94 13.94 0 0 0 7.55 2.21c9.05 0 14-7.5 14-14l-.02-.64a10 10 0 0 0 2.46-2.55Z"/></svg></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
